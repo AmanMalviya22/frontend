@@ -19,7 +19,7 @@ const Order = () => {
 
       if (response.ok) {
         alert("Order placed successfully!");
-        setCart([]); // ✅ Empty the cart after order placement
+        setCart([]); // Empty the cart after order placement
       } else {
         alert("Error placing order.");
       }
